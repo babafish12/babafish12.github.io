@@ -1,12 +1,10 @@
 header {
 color : red;
 font-size: 5em;
-
+text-align: center;
 }
-
-#audio {
-width: 100;
-height: 250;
+body {
+background-color: aqua;
 
 }
 
