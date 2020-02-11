@@ -6,7 +6,7 @@ font-size: 5em;
 
 .bild {
     float:right;
-    width:160px;
-    height:259px;
-    border:1px solid white;
+    width:300px;
+    height:400px;
+    border:3px solid white;
   }
