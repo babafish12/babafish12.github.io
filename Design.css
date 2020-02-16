@@ -1,10 +1,10 @@
 header {
-color : white;
+color : black;
 font-size: 5em;
 text-align: center;
 }
 body {
-background-color: black;
+background-color: white;
 }
 
 #homepage {
@@ -18,13 +18,14 @@ float: left;
 }
 
 p {
-color: white;
+border: 50px solid white ;    
+color: black;
 }
 a {
-color: white;
+color: black;
 }
 h2 {
-color: white;
+color: black;
 font-size: 3em;
 }
 #lachstext {
@@ -35,3 +36,35 @@ position: absolute;
 left: 20px;
 right: 20px;
 }
+#L {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url(https://img.freepik.com/vektoren-kostenlos/dunkles-nahtloses-muster-mit-hexagonhintergrund_1108-496.jpg?size=338&ext=jpg);
+  }
+  
+  #U {
+    float: left;
+  }
+  
+  #U a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #U a:hover {
+    background-color: #111;
+  }
+ #insta {
+    display: block;
+     margin-left: auto; 
+     margin-right: auto;
+ }
+ #fusszeile {
+    clear: both;
+    background-color: lightskyblue;
+    border-top: 2px solid black;
