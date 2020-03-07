@@ -6,10 +6,10 @@ text-align: center;
 body {
 background-color: white;
 }
-
+/*
 #homepage {
 float: left;
-
+*/
 }
 .titelbild {        
     display: block;
@@ -34,7 +34,7 @@ text-align: justify;
 font-size: 1.4em;
 display: block;
 }
-#L {
+.L {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -57,11 +57,13 @@ display: block;
   .U a:hover {
     background-color: #111;
   }
+  /*
  #insta {
     display: block;
      margin-left: auto; 
      margin-right: auto;
  }
+ */
  .fusszeile {
     clear: both;
     background-color: lightskyblue;
