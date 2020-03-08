@@ -15,6 +15,8 @@ float: left;
     display: block;
     margin-left: auto;
     margin-right: auto; 
+    width: 400px; 
+    height: 200px;
 }
 
 p {
@@ -94,4 +96,36 @@ color: black;
 font-size: 1em;
 display: block;
 text-align: center;
+}
+.Tabelle {
+  border-collapse: separate;
+  margin-left: auto; 
+  margin-right: auto;
+border-spacing:50px 30px;
+}
+td {
+font-size: 1.5em;
+text-align: left;
+}
+th {
+font-size: 1.5em;
+text-align: left;
+}
+.Quelle {
+font-size: 1.4em;
+text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.bildQ {
+width: 4em;
+height: 1.4em;
+}
+.Fische {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+width: 400px;
+height: 300px;
 }
