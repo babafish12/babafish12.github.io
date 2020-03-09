@@ -11,13 +11,19 @@ background-color: white;
 float: left;
 }
 */
-.titelbild {        
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 400px; 
-    height: 200px;
+html {
+zoom: 1.3;
+
+
 }
+.titelbild {        
+    width: 500px; 
+    height: 250px;
+float: right;
+padding-right: 5em;
+padding-top: 10em;
+  }
+
 
 p {
 border: 50px solid white ;    
@@ -31,7 +37,7 @@ color: black;
 font-size: 3em;
 text-align: center;
 }
-.lachstext {
+.text {
 text-align: justify;
 font-size: 1.4em;
 display: block;
@@ -59,6 +65,10 @@ display: block;
   .U a:hover {
     background-color: #111;
   }
+  .L .U a.active {
+background-color: white;
+color: #111;  
+}
   /*
  #insta {
     display: block;
@@ -85,10 +95,13 @@ width: 218px;
      padding: 0;
       }   
 .lachsbild {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  width: 40%;
+  float: right;
+  width: 30%;
+margin-right: 18em;
+}
+.Rezept {
+float: left;
+width: 50%;
 
 }
 .unten {
@@ -118,10 +131,6 @@ text-align: center;
 h1 {
   text-align: center;
 }
-.bildQ {
-width: 4em;
-height: 1.4em;
-}
 .Fische {
   display: block;
   margin-left: auto;
@@ -129,3 +138,15 @@ height: 1.4em;
 width: 400px;
 height: 300px;
 }
+.text2 {
+  font-size: 1.4em;
+  width:50%;
+  float: left;
+  }
+  .forelle {        
+    width: 500px; 
+    height: 250px;
+float: right;
+padding-right: 5em;
+padding-top: 5em;
+  }
