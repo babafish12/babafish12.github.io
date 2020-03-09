@@ -59,14 +59,6 @@ display: block;
   .U a:hover {
     background-color: #111;
   }
- html {
-padding-left: 20px;
-padding-left: 0px;
-padding-right: 20px;
-padding-bottom: 0px ;
-
- }
-
   /*
  #insta {
     display: block;
@@ -126,12 +118,9 @@ text-align: center;
 h1 {
   text-align: center;
 }
-.bild {
+.bildQ {
 width: 4em;
 height: 1.4em;
-display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .Fische {
   display: block;
