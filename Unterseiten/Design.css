@@ -20,7 +20,7 @@ zoom: 1.3;
 }
 /*Bild Grösse und Position festlegen*/
 .titelbild {        
-    width: 600px; 
+    width: 40%; 
     height: auto;
 float: right;
 padding-right: 5em;
@@ -152,17 +152,15 @@ height: 300px;
   border: solid grey;
   }
   .forelle {        
-    width: 500px; 
-    height: 250px;
+    width: 45%; 
+    height: auto;
 float: right;
-padding-right: 5em;
-padding-top: 5em;
+padding-right: 0em;
+padding-top: 1.5em;
   }
-  .hecht {
-width: 600px;
-height: 350px;
-margin-left: 2em;
-margin-top: 1.5em;
+
+.hecht {
+
   }
 .b {
   font-size: 1.4em;
@@ -186,9 +184,9 @@ margin-right: 3em;
 }
 .Wels {
 float: right;
-width: 600px;
+width: 45%;
 height: auto;
-margin-top: 5em;
+margin-top: 1.5em;
 }
 
 .text3 {
@@ -221,3 +219,11 @@ text-decoration: underline;
 color: wheat;
 
 }
+.text4 {
+  font-size: 1.4em;
+  width:40%;
+  float: left;
+  border: solid grey;
+
+
+} 

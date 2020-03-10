@@ -1,142 +1,223 @@
+/*Titel Grösse, Farbe und Position festlegen*/
 header {
-color : black;
-font-size: 5em;
-text-align: center;
-}
-body {
-background-color: white;
-}
-/*
-#homepage {
-float: left;
-}
-*/
-.titelbild {        
+  color : black;
+  font-size: 5em;
+  text-align: center;
+  text-shadow: darkgrey 2px 1px;
+  }
+  /*Hintergrundfarbe festlegen*/
+  body {
+  background-color: white;
+  }
+  /*
+  #homepage {
+  float: left;
+  }
+  */
+  /*ganze Website 1.3 mal ranzoomen*/
+  html {
+  zoom: 1.3;
+  }
+  /*Bild Grösse und Position festlegen*/
+  .titelbild {        
+      width: 600px; 
+      height: auto;
+  float: right;
+  padding-right: 5em;
+  padding-top: 1.5em;
+    }
+  
+  /*grösse und Farbe */
+  p {
+  border: 50px solid white ;    
+  color: black;
+  }
+  a {
+  color: black;
+  }
+  h2 {
+  color: black;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: darkgrey 2px 1px;
+  }
+  .text {
+  text-align: justify;
+  font-size: 1.4em;
+  display: block;
+  border: solid gray;
+  }
+  .L {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: url(https://img.freepik.com/vektoren-kostenlos/dunkles-nahtloses-muster-mit-hexagonhintergrund_1108-496.jpg?size=338&ext=jpg);
+    }
+    
+    .U {
+      float: left;
+    }
+    
+    .U a {
+      display: block;
+      color:white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .U a:hover {
+      background-color: #111;
+    }
+    .L .U a.active {
+  background-color: white;
+  color: #111;  
+  }
+    /*
+   #insta {
+      display: block;
+       margin-left: auto; 
+       margin-right: auto;
+   }
+   */
+   .fusszeile {
+      clear: both;
+      background-color: lightskyblue;
+      border-top: 2px solid black;
+   }
+   h3{
+  color:black;
+  font-size: 2em;
+  text-align: center;
+   }
+  .l { 
+  color: black;
+  font-size: 1.4em;
+  text-align: justify;
+  width: 218px;
+       margin: 0 auto;
+       padding: 0;
+        }   
+  .lachsbild {
+    float: right;
+    width: 30%;
+  margin-right: 18em;
+  
+  }
+  .Rezept {
+  float: left;
+  width: 40%;
+  
+  }
+  .unten {
+  color: black;
+  font-size: 1em;
+  display: block;
+  text-align: center;
+  }
+  .Tabelle {
+    border-collapse: separate;
+    margin-left: auto; 
+    margin-right: auto;
+  border-spacing:50px 30px;
+  border: solid gray;
+  }
+  td {
+  font-size: 1.5em;
+  text-align: left;
+  }
+  th {
+  font-size: 1.5em;
+  text-align: left;
+  }
+  .Quelle {
+  font-size: 1.4em;
+  text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  .Fische {
     display: block;
     margin-left: auto;
     margin-right: auto; 
-    width: 400px; 
-    height: 200px;
-}
-
-p {
-border: 50px solid white ;    
-color: black;
-}
-a {
-color: black;
-}
-h2 {
-color: black;
-font-size: 3em;
-text-align: center;
-}
-.lachstext {
-text-align: justify;
-font-size: 1.4em;
-display: block;
-}
-.L {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: url(https://img.freepik.com/vektoren-kostenlos/dunkles-nahtloses-muster-mit-hexagonhintergrund_1108-496.jpg?size=338&ext=jpg);
+  width: 400px;
+  height: 300px;
   }
-  
-  .U {
+  .text2 {
+    font-size: 1.4em;
+    width:50%;
     float: left;
+    border: solid grey;
+    }
+    .forelle {        
+      width: 500px; 
+      height: 250px;
+  float: right;
+  padding-right: 5em;
+  padding-top: 5em;
+    }
+    .hecht {
+  width: 600px;
+  height: 350px;
+  margin-left: 2em;
+  margin-top: 1.5em;
+    }
+  .b {
+    font-size: 1.4em;
+    margin-left: 2em;
+  margin-bottom: 2em;
+  }  
+  .krapfen {
+  float: right;
+  width: 500px;
+  height: 200px;
+  margin-right: 4em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-top: 3em;
+  }
+  .Schuppen {
+  float: right;
+  width: 500px;
+  height: auto;
+  margin-right: 3em;
+  }
+  .Wels {
+  float: right;
+  width: 30%;
+  height: 30 %;
+  margin-top: 0em;
   }
   
-  .U a {
+  .text3 {
+    text-align: justify;
+    font-size: 1.4em;
     display: block;
-    color:white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+    border:grey;
+    border-style: solid solid none solid;
+    }
+    .Rand {
+  border: grey;
+  border-style: none solid solid solid;
+    }
+  .Links li a {
+  text-decoration: none;
+  font-size: 1.4em;
   
-  .U a:hover {
-    background-color: #111;
+    }
+    .Links li a:hover {
+      text-decoration: underline;
+      font-size: 1.4em;
+      color: blue;
+        }
+  .unten a {
+  text-decoration: none;
+  
   }
- html {
-padding-left: 20px;
-padding-left: 0px;
-padding-right: 20px;
-padding-bottom: 0px ;
-
- }
-
-  /*
- #insta {
-    display: block;
-     margin-left: auto; 
-     margin-right: auto;
- }
- */
- .fusszeile {
-    clear: both;
-    background-color: lightskyblue;
-    border-top: 2px solid black;
- }
- h3{
-color:black;
-font-size: 2em;
-text-align: center;
- }
-.l { 
-color: black;
-font-size: 1.4em;
-text-align: justify;
-width: 218px;
-     margin: 0 auto;
-     padding: 0;
-      }   
-.lachsbild {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  width: 40%;
-
-}
-.unten {
-color: black;
-font-size: 1em;
-display: block;
-text-align: center;
-}
-.Tabelle {
-  border-collapse: separate;
-  margin-left: auto; 
-  margin-right: auto;
-border-spacing:50px 30px;
-}
-td {
-font-size: 1.5em;
-text-align: left;
-}
-th {
-font-size: 1.5em;
-text-align: left;
-}
-.Quelle {
-font-size: 1.4em;
-text-align: center;
-}
-h1 {
-  text-align: center;
-}
-.bild {
-width: 4em;
-height: 1.4em;
-display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.Fische {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-width: 400px;
-height: 300px;
-}
+  .unten a:hover {
+  text-decoration: underline;
+  color: wheat;
+  
+  }
