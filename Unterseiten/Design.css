@@ -70,6 +70,7 @@ border: solid gray;
   .U a:hover {
     background-color: #111;
   }
+  /*Die offene Website wird auf Nav-Bar weiss markiert*/
   .L .U a.active {
 background-color: white;
 color: #111;  
@@ -81,6 +82,7 @@ color: #111;
      margin-right: auto;
  }
  */
+
  .fusszeile {
     clear: both;
     background-color: lightskyblue;
@@ -116,6 +118,7 @@ font-size: 1em;
 display: block;
 text-align: center;
 }
+/*Tabelle Position und Rahmen geben*/
 .Tabelle {
   border-collapse: separate;
   margin-left: auto; 
@@ -159,9 +162,6 @@ padding-right: 0em;
 padding-top: 1.5em;
   }
 
-.hecht {
-
-  }
 .b {
   font-size: 1.4em;
   margin-left: 2em;
