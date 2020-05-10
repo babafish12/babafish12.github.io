@@ -1,58 +1,147 @@
-/*Titel Grösse, Farbe und Position festlegen*/
-header {
-color : black;
-font-size: 5em;
-text-align: center;
-text-shadow: darkgrey 2px 1px;
-}
-/*Hintergrundfarbe festlegen*/
-body {
-background-color: white;
-}
-/*
-#homepage {
-float: left;
-}
-*/
-/*ganze Website 1.3 mal ranzoomen*/
-html {
-zoom: 1.3;
-}
-/*Bild Grösse und Position festlegen*/
-.titelbild {        
-    width: 40%; 
-    height: auto;
-float: right;
-padding-right: 5em;
-padding-top: 1.5em;
-  }
 
-/*grösse und Farbe */
-p {
-border: 50px solid white ;    
-color: black;
+ 
+  
+  * {
+    margin: 0;
+    padding: 0;
 }
-a {
-color: black;
+
+.wrapper {
+    width: 100%;
 }
-h2 {
-color: black;
-font-size: 3em;
-text-align: center;
-text-shadow: darkgrey 2px 1px;
+
+.img-info {
+    width: 100%;
 }
-.text {
-text-align: justify;
-font-size: 1.4em;
-display: block;
+
+ h2 {
+padding: 30px 30px 20px;
+font-family: Arial;
+font-size: 50px;
+color: black;
+line-height: 44px;
+}
+.img-info p {
+    padding: 0px 30px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+    }
+
+.fische {
+width: 100%;
+}
+
+.tabelle h2 {
+    padding: 30px 30px 20px;
+    font-family: Arial;
+    font-size: 24px;
+    color: black;
+    line-height: 36px;
+}
+.tabelle table {
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+   
+}
+.footer {
+    clear: both;
+    background-color: lightskyblue;
+    border-top: 2px solid black;
+}
+.footer h2 {
+    padding: 30px 30px 20px;
+    font-family: Arial;
+    font-size: 24px;
+    color: black;
+    line-height: 36px;
+}
+.footer h3 li a {
+    text-decoration: none;
+    
+    }
+    .footer h3 li a:hover {
+    text-decoration: underline;
+    color: wheat;
+    }
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        width: 600px;
+        margin:  0 auto;
+    }
+     h2 {
+        padding: 20px 0px 0px;
+        }
+        .img-info p {
+            padding: 20px 0px 0px;
+            }
+            .fische {
+            padding-top: 30px;
+                }
+                .tabelle table {
+                    border-spacing:50px 30px;
+                border: solid gray;
+                }
+}
+
+@media only screen and (min-width: 1000px) {
+.wrapper {
+    width: 1000px;
+    }
+    .img-info {
+        width: 50%;
+        float: right;
+    }    
+
+     h2 {
+    
+        text-align: center;
+        }
+        .img-info p {
+            padding: 0px 0px 0px 30px;
+            }
+
+    .fische {
+        padding-top: 0px;
+        width: 50%;
+        float: left;
+            }
+      
+            .tabelle h2 {
+            padding: 30px 0px 30px 0px;
+                margin: auto;
+               font-size: 30px;
+            width: 70%;
+                text-align: center;
+                line-height: 36px;
+            }
+
+            .tabelle table {
+    border-collapse: separate;
+    margin-left: auto; 
+    margin-right: auto;
+    border-spacing:50px 30px;
 border: solid gray;
 }
+
+            
+}
+
+.nav {
+padding-bottom: 30px;
+
+}
+
 .L {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background: url(https://img.freepik.com/vektoren-kostenlos/dunkles-nahtloses-muster-mit-hexagonhintergrund_1108-496.jpg?size=338&ext=jpg);
+    
   }
   
   .U {
@@ -70,190 +159,8 @@ border: solid gray;
   .U a:hover {
     background-color: #111;
   }
-  /*Die offene Website wird auf Nav-Bar weiss markiert*/
+    /*Die offene Website wird auf Nav-Bar weiss markiert*/
   .L .U a.active {
-background-color: white;
-color: #111;  
-}
-  /*
- #insta {
-    display: block;
-     margin-left: auto; 
-     margin-right: auto;
- }
- */
-
- .fusszeile {
-    clear: both;
-    background-color: lightskyblue;
-    border-top: 2px solid black;
- }
- h3{
-color:black;
-font-size: 2em;
-text-align: center;
- }
-.l { 
-color: black;
-font-size: 1.4em;
-text-align: justify;
-width: 218px;
-     margin: 0 auto;
-     padding: 0;
-      }   
-.lachsbild {
-  float: right;
-  width: 30%;
-margin-right: 18em;
-
-}
-.Rezept {
-float: left;
-width: 40%;
-
-}
-.unten {
-color: black;
-font-size: 1em;
-display: block;
-text-align: center;
-}
-/*Tabelle Position und Rahmen geben*/
-.Tabelle {
-  border-collapse: separate;
-  margin-left: auto; 
-  margin-right: auto;
-border-spacing:50px 30px;
-border: solid gray;
-}
-td {
-font-size: 1.5em;
-text-align: left;
-}
-th {
-font-size: 1.5em;
-text-align: left;
-}
-.Quelle {
-font-size: 1.4em;
-text-align: center;
-}
-h1 {
-  text-align: center;
-}
-.Fische {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-width: 400px;
-height: 300px;
-}
-.text2 {
-  font-size: 1.4em;
-  width:50%;
-  float: left;
-  border: solid grey;
-  }
-  .forelle {        
-    width: 45%; 
-    height: auto;
-float: right;
-padding-right: 0em;
-padding-top: 1.5em;
-  }
-
-.b {
-  font-size: 1.4em;
-  margin-left: 2em;
-margin-bottom: 2em;
-}  
-.krapfen {
-float: right;
-width: 500px;
-height: 200px;
-margin-right: 4em;
-margin-bottom: 1em;
-margin-left: 2em;
-margin-top: 3em;
-}
-.Schuppen {
-float: right;
-width: 500px;
-height: auto;
-margin-right: 3em;
-}
-.Wels {
-float: right;
-width: 45%;
-height: auto;
-margin-top: 1.5em;
-}
-
-.text3 {
-  text-align: justify;
-  font-size: 1.4em;
-  display: block;
-  border:grey;
-  border-style: solid solid none solid;
-  }
-  .Rand {
-border: grey;
-border-style: none solid solid solid;
-  }
-.Links li a {
-text-decoration: none;
-font-size: 1.4em;
-
-  }
-  .Links li a:hover {
-    text-decoration: underline;
-    font-size: 1.4em;
-    color: blue;
-      }
-.unten a {
-text-decoration: none;
-
-}
-.unten a:hover {
-text-decoration: underline;
-color: wheat;
-
-}
-.text4 {
-  font-size: 1.4em;
-  width:40%;
-  float: left;
-  border: solid grey;
-
-
-} 
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-.textstart {
-  font-size: 1.4em;
-  border: solid gray;
-  }
-  * {
-    box-sizing: border-box;
-  }
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+    background-color: white;
+    color: #111;  
+    }
