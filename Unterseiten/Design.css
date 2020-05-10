@@ -249,3 +249,11 @@ color: wheat;
   font-size: 1.4em;
   border: solid gray;
   }
+  * {
+    box-sizing: border-box;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
