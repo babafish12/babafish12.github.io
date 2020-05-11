@@ -1,7 +1,4 @@
-
- 
-  
-  * {
+* {
     margin: 0;
     padding: 0;
 }
@@ -14,8 +11,8 @@
     width: 100%;
 }
 
- h2 {
-padding: 30px 30px 20px;
+.wrapper h2 {
+padding: 0px 30px 20px;
 font-family: Arial;
 font-size: 50px;
 color: black;
@@ -28,6 +25,13 @@ line-height: 44px;
     color: black;
     line-height: 24px;
     }
+.img-info h2 {
+    padding: 0px 30px 20px;
+    font-family: Arial;
+    font-size: 36px;
+    color: black;
+    line-height: 36px;
+}
 
 .fische {
 width: 100%;
@@ -51,22 +55,45 @@ width: 100%;
     clear: both;
     background-color: lightskyblue;
     border-top: 2px solid black;
+    list-style-type:none;
+    text-align: center;
 }
 .footer h2 {
     padding: 30px 30px 20px;
     font-family: Arial;
-    font-size: 24px;
+    font-size: 36px;
     color: black;
     line-height: 36px;
 }
 .footer h3 li a {
     text-decoration: none;
-    
-    }
+color: #111;    
+font-size: 24px;
+}
     .footer h3 li a:hover {
     text-decoration: underline;
     color: wheat;
     }
+    
+    
+    .Untertext {
+        width: 100%;
+    }
+    .Untertext p {
+        padding: 0px 30px 20px;
+        font-family: Arial;
+        font-size: 16px;
+        color: black;
+        line-height: 24px;
+        }
+        .Untertext h2 {
+        padding-top: 20px;
+            font-family: Arial;
+            font-size: 36px;
+            color: black;
+            text-align: center;
+            }
+
 @media only screen and (min-width: 768px) {
     .wrapper {
         width: 600px;
@@ -77,6 +104,7 @@ width: 100%;
         }
         .img-info p {
             padding: 20px 0px 0px;
+            text-align: justify;
             }
             .fische {
             padding-top: 30px;
@@ -85,6 +113,10 @@ width: 100%;
                     border-spacing:50px 30px;
                 border: solid gray;
                 }
+                .Untertext p {
+                    padding: 20px 0px 0px;
+                    text-align: justify;
+                    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -125,6 +157,9 @@ width: 100%;
     margin-right: auto;
     border-spacing:50px 30px;
 border: solid gray;
+}
+.Untertext h2 {
+padding-top: 300px;
 }
 
             
