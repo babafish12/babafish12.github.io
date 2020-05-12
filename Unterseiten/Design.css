@@ -167,6 +167,10 @@ h2 {
 font-size: 100px;
 }
 
+#password {
+    font-family: "fontello";
+}
+
 #Password a {
 color: red  ;
 text-decoration: none;
