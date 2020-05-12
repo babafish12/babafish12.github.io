@@ -146,7 +146,14 @@ font-size: 24px;
     line-height: 24px;
     }
 
-                     
+    #Password {
+        color: black;
+        text-align: left;
+        background-color: rgba(255, 254, 196, 0.712);
+        margin: 10px; 
+        width: 300px;
+      }    
+
 
 @media only screen and (min-width: 768px) {
     .wrapper {
