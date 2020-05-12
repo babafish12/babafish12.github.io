@@ -5,6 +5,9 @@
 }
 body {
 cursor: url("clown.cur"),auto;  
+}
+body:active {
+cursor: url(clownselect.cur), pointer;
 
 }
 .wrapper {
