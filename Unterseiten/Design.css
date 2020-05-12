@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
 }
+body {
+cursor: url("clown.cur"),auto;  
 
+}
 .wrapper {
     width: 100%;
 }
