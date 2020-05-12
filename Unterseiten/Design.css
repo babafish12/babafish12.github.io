@@ -84,7 +84,7 @@ font-size: 24px;
         width: 100%;
     }
     .Untertext p {
-        padding: 0px 30px 20px;
+        padding: 0px 20px 20px 20px;
         font-family: Arial;
         font-size: 16px;
         color: black;
@@ -109,6 +109,39 @@ font-size: 24px;
                          margin: 0 auto;
                          padding: 0;
                           }   
+.hecht {
+    padding: 0px 30px 20px;
+    font-family: Arial;
+    font-size: 36px;
+    color: black;
+    line-height: 36px;
+}
+
+.hechtp {
+    padding: 0px 20px 20px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+}
+.Untertexthecht h2{
+    padding: 30px 30px 20px;
+    font-family: Arial;
+    font-size: 36px;
+    color: black;
+    line-height: 36px;
+
+}
+.Untertexthecht p {
+    padding: 0px 20px 20px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+    }
+
+                     
+
 @media only screen and (min-width: 768px) {
     .wrapper {
         width: 600px;
@@ -187,7 +220,7 @@ border: solid gray;
 padding-top: 300px;
 color: black;
 
-                    text-align: justify;
+              text-align: justify;
                     width: 210px;
                          margin: 0 auto;
                          padding: 0;
@@ -196,7 +229,19 @@ color: black;
 .Hechttext {
 height: 355px;
 }
+.Untertexthecht {
+width: 50%;
 
+
+}
+.Untertexthecht h2 {
+    padding: 385px 30px 20px;
+    font-family: Arial;
+    font-size: 36px;
+    color: black;
+    line-height: 36px;
+
+}
 }            
 
 
