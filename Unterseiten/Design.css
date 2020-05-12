@@ -3,12 +3,16 @@
     margin: 0;
     padding: 0;
 }
-body {
+html {
 cursor: url("clown.cur"),auto;  
 }
-body:active {
+html:active {
 cursor: url(clownselect.cur), pointer;
 
+}
+
+a {
+cursor: url(clown.cur), auto;
 }
 .wrapper {
     width: 100%;
@@ -149,11 +153,22 @@ font-size: 24px;
     #Password {
         color: black;
         text-align: left;
-        background-color: rgba(255, 254, 196, 0.712);
-        margin: 10px; 
+        background-color: palegreen;
+        margin: 0 auto; 
+        font-size: 30px;
+        border: black 2px solid;
         width: 300px;
+        font-family: Arial;
+        padding: 30px 30px 30px 30px;
       }    
+h2 {
+font-size: 100px;
+}
 
+#Password a {
+color: red  ;
+text-decoration: none;
+}
 
 @media only screen and (min-width: 768px) {
     .wrapper {
