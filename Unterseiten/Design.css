@@ -322,3 +322,13 @@ padding-bottom: 30px;
     background-color: white;
     color: #111;  
     }
+    .Links li a {
+        text-decoration: none;
+        font-size: 1.4em;
+        color: black;
+          }
+          .Links li a:hover {
+            text-decoration: underline;
+            font-size: 1.4em;
+            color: blue;
+              }
