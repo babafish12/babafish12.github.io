@@ -10,9 +10,11 @@
   <link rel="icon" type="image/vnd.microsoft.icon" href="Unterseiten/Egli.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body onload="startTime()">
   <div class="wrapper">
- <h2>Schweizer Fische</h2>
+    <div class="titelseiten">
+ <h2 class="titelseite" >Schweizer Fische</h2>
+</div>
 </div>
 <div id = Password>
   Das ist eine Private Webseite! schaue auf gar keinen Fall in den Quellcode!!!
@@ -31,11 +33,12 @@
   }
   </script>
   </div>
-  
+  <div class="Titel">
   <h3>Musik für Langweile</h3>
   <center>
   <iframe src="https://open.spotify.com/embed/playlist/0fmBP9WXyzSgSSiyuRQx38" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </center>
+</div>
 <svg width=300 height=300>
   <circle cx=150 cy=150 r=145 fill=chocolate stroke-width=4 stroke=black />
   <path d="M3,160 A140 140 0 1 1 297 140" fill=white opacity=.25 />
@@ -62,6 +65,8 @@
              values="1;0;0;0;1;1;1;0;0;0;1;1;" />
   </path>
 </svg>
+<h3>Zeit:</h3>
+<h3 id="txt"></h3>
 <div class="footer">
   <h2>Good Links</h2>
      <h3><li><a href="https://mschwar14.github.io/">mschwar14</a></li>

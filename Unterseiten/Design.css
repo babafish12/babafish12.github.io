@@ -26,9 +26,39 @@ cursor: url(clown.cur), auto;
 padding: 0px 30px 20px;
 font-family: Arial;
 font-size: 50px;
-color: black;
+color: red;
 line-height: 44px;
 }
+.wrapper .titelseite:hover {
+    animation: textwelle 2s;
+  }
+  
+  @keyframes textwelle {
+    0 {
+      font-size: 0;
+      opacity: 0;
+    }
+    90% {
+      font-size: 70px;
+      opacity: 1;
+    }
+    100% {
+      font-size: 60px;
+      opacity: 1;	
+    }
+
+  }
+  .titelseiten {
+margin-top: 50px;
+  }
+  #id {
+width: 36px;
+text-align: center;
+  }
+  article h2 {
+    text-shadow: 1px 1px 1px black;
+
+  }
 .img-info p {
     padding: 0px 30px 20px;
     font-family: Arial;
@@ -284,6 +314,15 @@ width: 50%;
     color: black;
     line-height: 36px;
 
+}
+.Titel {
+float: left;
+padding-left: 300px;
+}
+svg {
+float: right;
+padding-right: 300px;
+padding-top: 100px;
 }
 }            
 
