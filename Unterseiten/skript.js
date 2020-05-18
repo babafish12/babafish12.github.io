@@ -1,15 +1,15 @@
 const options = {
-    bottom: '64px', // default: '32px'
-    right: '32px', // default: '32px'
-    left: 'unset', // default: 'unset'
-    time: '0.5s', // default: '0.3s'
-    mixColor: '#fff', // default: '#fff'
-    backgroundColor: '#fff',  // default: '#fff'
-    buttonColorDark: '#100f2c',  // default: '#100f2c'
-    buttonColorLight: '#fff', // default: '#fff'
-    saveInCookies: false, // default: true,
-    label: '☀️', // default: ''
-    autoMatchOsTheme: true // default: true    
+    bottom: '64px',
+    right: '32px', 
+    left: 'unset', 
+    time: '0.5s', 
+    mixColor: '#fff', 
+    backgroundColor: '#fff', f'
+    buttonColorDark: '#100f2c', 
+    buttonColorLight: '#fff', 
+    saveInCookies: false, 
+    label: '☀️', 
+    autoMatchOsTheme: true    
 }
 
 new Darkmode(options).showWidget();
@@ -29,6 +29,5 @@ function startTime() {
     var t = setTimeout(startTime, 500);
   }
   function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-    return i;
+    if (i < 10) {i = "0" + i}; 
   }
