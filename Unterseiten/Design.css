@@ -332,3 +332,9 @@ padding-bottom: 30px;
             font-size: 1.4em;
             color: blue;
               }
+              svg{
+                display:block;
+                text-align:center;
+                margin:auto;
+                margin-top:0px;
+              }
