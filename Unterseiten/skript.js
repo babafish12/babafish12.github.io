@@ -1,3 +1,4 @@
+
 const options = {
     bottom: '64px',
     right: '32px', 
@@ -16,4 +17,3 @@ new Darkmode(options).showWidget();
 
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
-
